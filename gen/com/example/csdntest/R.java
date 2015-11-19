@@ -309,28 +309,47 @@ containing a value of this type.
         public static final int up_white=0x7f020082;
     }
     public static final class id {
-        public static final int action_add=0x7f0a0010;
+        public static final int action_add=0x7f0a001e;
         public static final int animll_id=0x7f0a0005;
+        public static final int blogImg=0x7f0a0012;
+        public static final int btn_back=0x7f0a000e;
+        public static final int btn_menu=0x7f0a0011;
+        public static final int content=0x7f0a0014;
+        public static final int date=0x7f0a0015;
         public static final int drawer_layout=0x7f0a0000;
         public static final int fragment_layout=0x7f0a0001;
-        public static final int imvDrawer=0x7f0a000e;
+        public static final int id=0x7f0a0016;
+        public static final int imvDrawer=0x7f0a001c;
+        public static final int imv_actionbar_divider=0x7f0a000f;
+        public static final int imv_blogger=0x7f0a0017;
         public static final int iv_logo=0x7f0a000a;
         public static final int iv_main_left_head=0x7f0a0006;
-        public static final int llDrawer=0x7f0a000d;
+        public static final int listView=0x7f0a000d;
+        public static final int llDrawer=0x7f0a001a;
         public static final int login_tv=0x7f0a0004;
         public static final int navdrawer=0x7f0a0008;
         public static final int rl=0x7f0a0002;
         public static final int rl_splash=0x7f0a0009;
+        public static final int title=0x7f0a0013;
         public static final int toprl=0x7f0a0003;
-        public static final int tvDrawer=0x7f0a000f;
+        public static final int tvDrawer=0x7f0a001d;
+        public static final int tv_blog_desc=0x7f0a0019;
+        public static final int tv_blog_title=0x7f0a0018;
         public static final int tv_logo_name=0x7f0a000b;
+        public static final int tv_name=0x7f0a001b;
+        public static final int tv_title=0x7f0a0010;
         public static final int tv_version=0x7f0a000c;
         public static final int user_name=0x7f0a0007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_splash=0x7f030001;
-        public static final int listitem_drawer=0x7f030002;
+        public static final int fragment_blogger_list=0x7f030002;
+        public static final int include_head_layout=0x7f030003;
+        public static final int listitem_blog=0x7f030004;
+        public static final int listitem_blogger=0x7f030005;
+        public static final int listitem_blogtype=0x7f030006;
+        public static final int listitem_drawer=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f090000;

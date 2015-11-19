@@ -67,7 +67,7 @@ public class DrawerAdapter extends BaseAdapter {
 		holder.imvDrawer.setImageResource(((DrawerInfo) getItem(position))
 				.getResId());
 
-		if (position == selection) {
+		if (position ==selection) {
 			holder.llDrawer.setBackgroundColor(R.color.gray_bg);
 			holder.tvDrawer.setTextColor(mContext.getResources().getColor(
 					R.color.main_color));

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.adapter.DrawerAdapter;
+import com.example.base.BaseFragmentActivity;
 import com.example.bean.DrawerInfo;
 import com.example.view.drawerlayout.ActionBarDrawerToggle;
 import com.example.view.drawerlayout.DrawerArrowDrawable;
@@ -24,7 +25,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseFragmentActivity {
 
 	private DrawerLayout drawerLayout;
 	private RelativeLayout toprl;
@@ -121,6 +122,9 @@ public class MainActivity extends Activity {
 
 	}
 
+	/**
+	 * 初始化View对象
+	 */
 	private void initView() {
 		drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		toprl = (RelativeLayout) findViewById(R.id.toprl);
